@@ -1,7 +1,7 @@
 import yfinance as yf
-from crewai_tools import tools
+from crewai_tools import tool
 
-@tools
+@tool
 def competitor_data(ticker: str, num_competitors: int=3):
 
     """
